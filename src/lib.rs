@@ -1,5 +1,9 @@
+// look at this page for docs https://docs.rs/embedded-hal/latest/embedded_hal/
+
+use embedded_hal::i2c::I2c;
+
 struct BMP585 {
-	
+
 }
 
 pub fn add(left: u64, right: u64) -> u64 {
